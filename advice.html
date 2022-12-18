@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mochi Marshmellows</title>
+    <title>Advice!</title>
     <link rel="shortcut icon" href="https://media1.popsugar-assets.com/files/thumbor/nsZgUIicDDX7hm9SgU8hyEzl_MI/1028x3:3593x2568/fit-in/550x550/filters:format_auto-!!-:strip_icc-!!-/2021/12/10/705/n/1922195/81873de861b3786765c930.84376835_/i/hot-chocolate-charcuterie-boards.jpg">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -23,18 +23,28 @@
         <a class="link" href="advice.html">Advice!</a>
     
     </header>
-    
-    <h1 class="hewo">Welcome to Mochi Marshmellows!</h1>
 
-    <p class="hewo">Hiya, and welcome! I've made this new company called "Mochi Marshmellows". It's basically just a hot cocoa store where you can order some hot chocolate and it'll arrive in about 5 minutes, hot and absolutely DELICIOUS! I'd appreciate it if you'd try it :3 Thanks for reading, hope you enjoy!</p>
+    <form method="POST" netlify name="form1">
 
-    <div class="cocoaparent">
-        <img class="cocoa" src="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2020_50/1650987/hot-cocoa-kb-main-201211.jpg" alt="cocoa">
-        
-        <img class="cocoa" src="https://live.staticflickr.com/65535/49113845316_ac2caed52e_b.jpg" alt="cocoa">
+        <div class="formitem">
 
-        <img class="cocoa" src="https://media.istockphoto.com/id/1007480178/photo/homemade-hot-chocolate-with-mini-marshmallow.jpg?s=612x612&w=0&k=20&c=JvS8UBQZA0QCGQ8jlUi1_6fK6127Dky5uc-fWt6ohnc=" alt="cocoa">
-    </div>
+            <label for="name">Name (Optional)</label>
+            <input type="text" placeholder="Enter your name" name="Name">
+
+        </div>
+
+        <div class="formitem">
+
+            <label for="message">Message/Advice</label>
+            <input type="text" placeholder="Enter your message/advice" name="Message/Advice">
+
+        </div>
+
+        <div class="formitem">
+            <button type="submit">Submit</button>
+        </div>
+
+    </form>
 
 </body>
 </html>
