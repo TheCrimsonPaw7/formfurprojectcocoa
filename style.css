@@ -40,7 +40,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 .cocoaheader{
     height:100px;
     width:100px;
-    margin-left:5rem;
+    margin-left:0.5rem;
     border-radius:1rem
 }
 
@@ -86,4 +86,20 @@ form{
     font-size:20px;
     font-weight:600;
     border-radius:2rem;
+}
+
+.myo{
+    display:flex;
+    justify-content:center;
+}
+
+.myoimg{
+    border:10px ridge white;
+    height:850px;
+    width:450px;
+    margin-top:1rem;
+    margin-bottom:2rem;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
