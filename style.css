@@ -28,27 +28,17 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     justify-content:center;
 }
 
-.header{
-    border:10px solid black;
-    height:100px;
-    background-color:black;
-    border-radius:2rem;
-    display:flex;
-    justify-content:center;
-}
-
 .cocoaheader{
     height:100px;
     width:100px;
     margin-left:0.5rem;
+    margin-right:1rem;
     border-radius:1rem
 }
 
-.link{
+#link{
     color:white;
     text-decoration:none;
-    margin-top:2.5rem;
-    margin-left:10rem;
 }
 
 
@@ -102,4 +92,77 @@ form{
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#carousel-inner{
+    height:50%
+}
+
+.pagination{
+    margin-top:5rem;
+    display:flex;
+    justify-content:center;
+}
+
+.navbar{
+    margin-bottom:2rem;
+    margin-top:1rem;
+    height:150px;
+    width: 97%;
+    border-radius:2rem;
+}
+
+.navbar-brand{
+    color:white;
+}
+
+.div{
+    display:flex;
+    justify-content:center;
+}
+
+.navbar-brand:hover{
+    color:rgb(248, 188, 188);
+}
+
+.cardparent{
+    display:flex;
+    justify-content:center;
+    margin-bottom:2rem;
+}
+
+.cocoasize{
+    height:200px;
+}
+
+.card{
+    margin-left:2.5rem;
+}
+
+.navy{
+    display:flex;
+    justify-content:center;
+}
+
+#scrollspyactual{
+    width:90%;
+}
+
+.scrollspyactualdiv{
+    display:flex;
+    justify-content:center;
+}
+
+.carousel-inner{
+    height:100%;
+    width:97%;
+    border-radius:2rem;
+    border:10px ridge white;
+}
+
+.divparenthehe{
+    display:flex;
+    justify-content:center;
+    margin-top:2rem;
+    margin-bottom:1.5rem;
 }
