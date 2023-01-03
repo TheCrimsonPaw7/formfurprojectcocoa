@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advice!</title>
+    <title>OOP</title>
     <link rel="shortcut icon" href="https://media1.popsugar-assets.com/files/thumbor/nsZgUIicDDX7hm9SgU8hyEzl_MI/1028x3:3593x2568/fit-in/550x550/filters:format_auto-!!-:strip_icc-!!-/2021/12/10/705/n/1922195/81873de861b3786765c930.84376835_/i/hot-chocolate-charcuterie-boards.jpg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -68,35 +68,46 @@
           </nav>
      </div>
 
-    <div class="alertdiv">
-     <div id="alert" class="alert alert-danger" role="alert">
-        Warning - please do NOT say anything bad about the owner or products. Do NOT steal ideas or recipes of any of these products. If you do, you will be sentenced to 3 years of jail and you will have to pay a heavy fine for copyright.
-     </div>
+    <div class="navy">
+     <nav id="navbar-example2" class="navbar bg-black px-3 mb-3">
+        <a class="navbar-brand" href="#">Other Products</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading1">First</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2">Second</a>
+          </li>
+        </ul>
+      </nav>
     </div>
 
-    <form method="POST" netlify name="form1">
-
-        <div class="formitem">
-
-            <label for="name">Name (Optional)</label>
-            <input type="text" placeholder="Enter your name" name="Name">
-
+    <div class="scrollspyactualdiv">
+      <div id="scrollspyactual" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
+        <h4 id="scrollspyHeading4">Camping Galore</h4>
+        <p>These camping grounds are perfect for those who love the outdoors and nature! This beautiful place consists of a lake, and provides you with a camping kit for each family member! If you love cub scouts, then there's even a center for signing up for it, and you and your "pack" can go and venture into the forest with your alpha (leader)!</p>
+        <div class="varietydiv">
+            <img class="variety2" src="https://media.timeout.com/images/105679403/image.jpg" alt="">
         </div>
-
-        <div class="formitem">
-
-            <label for="message">Message/Advice</label>
-            <input type="text" placeholder="Enter your message/advice" name="Message/Advice">
-
+        <h4 id="scrollspyHeading5">Sleek, Shiny, & Silky</h4>
+        <p>This company specializes in clothing design! You can find the best of the best clothing here, from rough patterned shirts to soft, silky skirts and pants.</p>
+        <div class="varietydiv">
+            <img class="variety3" src="https://ae01.alicdn.com/kf/HTB1.Cv6KpXXXXasaXXXq6xXFXXXi/Matte-silk-fabric-Elastic-satin-fabrics-150-100cm-Patchwork-Sewing-for-Women-fashion-dress-Imitation-silk.jpg" alt="">
+            <img class="variety3" src="https://media.gq.com/photos/61ef317bea362c0f8b862d81/master/pass/012422-shirts-for-men-lead.jpg" alt="">
         </div>
+      </div>
+    </div>
 
-        <div class="formitem">
-            <button type="submit">Submit</button>
-        </div>
+     <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item"><a class="page-link" href="otherproducts.html">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="otherproducts.html">1</a></li>
+          <li class="page-item"><a class="page-link" href="otherotherproducts.html">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
 
-    </form>
-
-    <footer class="footer">
+      <footer class="footer">
         <div class="companypart">
             <img class="logo" src="https://media1.popsugar-assets.com/files/thumbor/nsZgUIicDDX7hm9SgU8hyEzl_MI/1028x3:3593x2568/fit-in/550x550/filters:format_auto-!!-:strip_icc-!!-/2021/12/10/705/n/1922195/81873de861b3786765c930.84376835_/i/hot-chocolate-charcuterie-boards.jpg" alt="">
         </div>
@@ -123,7 +134,7 @@
         </div>
     </footer>
 
-    <!-- JavaScript Connection -->
+      <!-- JavaScript Connection -->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>

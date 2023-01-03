@@ -139,6 +139,15 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     margin-left:2.5rem;
 }
 
+.card h1{
+    font-size:30px;
+    text-align:center;
+}
+
+.card img{
+    height:200px;
+}
+
 .navy{
     display:flex;
     justify-content:center;
@@ -165,4 +174,75 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     justify-content:center;
     margin-top:2rem;
     margin-bottom:1.5rem;
+}
+
+.variety{
+    margin-bottom:2rem;
+    margin-right:2rem;
+    border-radius:2rem;
+    border:10px ridge crimson;
+}
+
+.varietydiv{
+    display:flex;
+    justify-content:center;
+}
+
+#alert{
+    width:90%;
+    text-align:center;
+}
+
+.alertdiv{
+    display:flex;
+    justify-content:center;
+}
+
+#choice{
+    height:50px;
+}
+
+.variety2{
+    margin-bottom:2rem;
+    margin-right:2rem;
+    border-radius:2rem;
+    border:10px ridge crimson;
+    width:1000px;
+}
+
+.variety3{
+    margin-bottom:2rem;
+    margin-right:2rem;
+    border-radius:2rem;
+    border:10px ridge crimson;
+    width:520px;
+}
+
+.logo{
+    height:100px;
+    width:100px;
+    border-radius:1rem;
+}
+
+.footer{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    background-color:black;
+    padding:2rem;
+}
+
+.linkpart a{
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    line-height:1.5;
+}
+
+.linkpart h3{
+    color:crimson;
+}
+
+.linkpart a:hover{
+    color:crimson;
 }
