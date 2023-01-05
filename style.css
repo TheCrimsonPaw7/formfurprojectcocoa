@@ -33,12 +33,16 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     width:100px;
     margin-left:0.5rem;
     margin-right:1rem;
-    border-radius:1rem
+    border-radius:1rem;
 }
 
 #link{
     color:white;
     text-decoration:none;
+}
+
+#link:hover{
+    color:crimson;
 }
 
 
@@ -106,10 +110,8 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
 .navbar{
     margin-bottom:2rem;
-    margin-top:1rem;
     height:150px;
-    width: 97%;
-    border-radius:2rem;
+    width:100%;
 }
 
 .navbar-brand{
@@ -245,4 +247,9 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 
 .linkpart a:hover{
     color:crimson;
+}
+
+.formdiv{
+    background:url("https://i.pinimg.com/originals/0e/ea/00/0eea0022503f7680c942b4c754d81922.jpg");
+    margin-top:-2rem;
 }
